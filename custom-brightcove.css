@@ -294,16 +294,16 @@ table th {
     margin-left: calc(-0.5em - 1px);
     margin-right: calc(-0.5em - 1px); }
   .button:hover, .button.is-hovered {
-    border-color: #ec008c;
-    color: #ec008c; }
+    border-color: #524fa1;
+    color: #524fa1; }
   .button:focus, .button.is-focused {
-    border-color: #ec008c;
-    color: #ec008c; }
+    border-color: #524fa1;
+    color: #524fa1; }
     .button:focus:not(:active), .button.is-focused:not(:active) {
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
   .button:active, .button.is-active {
-    border-color: #ec008c;
-    color: #ec008c; }
+    border-color: #524fa1;
+    color: #524fa1; }
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
@@ -593,7 +593,7 @@ table th {
         box-shadow: none;
         color: #fff; }
   .button.is-primary {
-    background-color: #ec008c;
+    background-color: #524fa1;
     border-color: transparent;
     color: #fff; }
     .button.is-primary:hover, .button.is-primary.is-hovered {
@@ -611,12 +611,12 @@ table th {
       color: #fff; }
     .button.is-primary[disabled],
     fieldset[disabled] .button.is-primary {
-      background-color: #ec008c;
+      background-color: #524fa1;
       border-color: transparent;
       box-shadow: none; }
     .button.is-primary.is-inverted {
       background-color: #fff;
-      color: #ec008c; }
+      color: #524fa1; }
       .button.is-primary.is-inverted:hover, .button.is-primary.is-inverted.is-hovered {
         background-color: #f2f2f2; }
       .button.is-primary.is-inverted[disabled],
@@ -624,36 +624,36 @@ table th {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
-        color: #ec008c; }
+        color: #524fa1; }
     .button.is-primary.is-loading::after {
       border-color: transparent transparent #fff #fff !important; }
     .button.is-primary.is-outlined {
       background-color: transparent;
-      border-color: #ec008c;
-      color: #ec008c; }
+      border-color: #524fa1;
+      color: #524fa1; }
       .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined.is-focused {
-        background-color: #ec008c;
-        border-color: #ec008c;
+        background-color: #524fa1;
+        border-color: #524fa1;
         color: #fff; }
       .button.is-primary.is-outlined.is-loading::after {
-        border-color: transparent transparent #ec008c #ec008c !important; }
+        border-color: transparent transparent #524fa1 #524fa1 !important; }
       .button.is-primary.is-outlined.is-loading:hover::after, .button.is-primary.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-outlined.is-loading:focus::after, .button.is-primary.is-outlined.is-loading.is-focused::after {
         border-color: transparent transparent #fff #fff !important; }
       .button.is-primary.is-outlined[disabled],
       fieldset[disabled] .button.is-primary.is-outlined {
         background-color: transparent;
-        border-color: #ec008c;
+        border-color: #524fa1;
         box-shadow: none;
-        color: #ec008c; }
+        color: #524fa1; }
     .button.is-primary.is-inverted.is-outlined {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
       .button.is-primary.is-inverted.is-outlined:hover, .button.is-primary.is-inverted.is-outlined.is-hovered, .button.is-primary.is-inverted.is-outlined:focus, .button.is-primary.is-inverted.is-outlined.is-focused {
         background-color: #fff;
-        color: #ec008c; }
+        color: #524fa1; }
       .button.is-primary.is-inverted.is-outlined.is-loading:hover::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-inverted.is-outlined.is-loading:focus::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
-        border-color: transparent transparent #ec008c #ec008c !important; }
+        border-color: transparent transparent #524fa1 #524fa1 !important; }
       .button.is-primary.is-inverted.is-outlined[disabled],
       fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
         background-color: transparent;
@@ -662,15 +662,15 @@ table th {
         color: #fff; }
     .button.is-primary.is-light {
       background-color: #ffebf7;
-      color: #eb008b; }
+      color: #524fa1; }
       .button.is-primary.is-light:hover, .button.is-primary.is-light.is-hovered {
         background-color: #ffdef2;
         border-color: transparent;
-        color: #eb008b; }
+        color: #524fa1; }
       .button.is-primary.is-light:active, .button.is-primary.is-light.is-active {
         background-color: #ffd1ec;
         border-color: transparent;
-        color: #eb008b; }
+        color: #524fa1; }
   .button.is-link {
     background-color: #3273dc;
     border-color: transparent;
@@ -1534,7 +1534,7 @@ button.dropdown-item {
         background-color: #363636;
         color: #fff; } }
   .navbar.is-primary {
-    background-color: #ec008c;
+    background-color: #524fa1;
     color: #fff; }
     .navbar.is-primary .navbar-brand > .navbar-item,
     .navbar.is-primary .navbar-brand .navbar-link {
@@ -1576,7 +1576,7 @@ button.dropdown-item {
         background-color: #d3007d;
         color: #fff; }
       .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
-        background-color: #ec008c;
+        background-color: #524fa1;
         color: #fff; } }
   .navbar.is-link {
     background-color: #3273dc;
@@ -1904,7 +1904,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #ec008c; }
+    color: #524fa1; }
 
 .navbar-item {
   flex-grow: 0;
@@ -3358,7 +3358,7 @@ a.has-text-dark:hover, a.has-text-dark:focus {
   background-color: #363636 !important; }
 
 .has-text-primary {
-  color: #ec008c !important; }
+  color: #524fa1 !important; }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
   color: #b9006e !important; }
@@ -4628,7 +4628,7 @@ a {
   background: rgba(255, 255, 255, 0.8) !important; }
 
 #inplayer-bc-plugin-preview button {
-  background-color: #ec008c !important;
+  background-color: #524fa1 !important;
   font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
   font-size: 18px !important;
   text-transform: uppercase;
@@ -4637,7 +4637,7 @@ a {
 
 #inplayer-bc-plugin-preview button:hover {
   background-color: #fff !important;
-  color: #ec008c !important;
+  color: #524fa1 !important;
   font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
   border-radius: 4px !important; }
 
